@@ -1,0 +1,5 @@
+a = [num if num<5 else num*2 for num in range(2,9)]
+for num in range(2,9):
+    if num<5:
+        a = [num for num in range(2,9) if num<5]
+        print(a)
